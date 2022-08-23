@@ -1,24 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 @media only screen and (max-width: 699px) {
-  body {
-    overflow-x: hidden;
-    overflow-y: hidden;
-  }
-
-  header {
-    margin-top: 1rem !important;
-    margin-bottom: 0 !important;
-  }
-
-  p {
-    color: #111729;
-  }
-
   .buttonsHeader {
     display: flex;
     justify-content: center;
- 
+
     border-bottom: 0.1px solid rgba(128, 128, 128, 0.3);
   }
 
@@ -28,6 +14,8 @@
 
   .title {
     margin-bottom: 0rem;
+    display: flex;
+    justify-content: center;
   }
 
   .textHi {
@@ -46,6 +34,11 @@
     color: #111729;
   }
 
+  .welcome {
+    display: flex;
+    justify-content: center;
+  }
+
   .subTitle {
     display: flex;
     justify-content: center;
@@ -54,6 +47,7 @@
 
   .myResume {
     width: 100%;
+    padding: 2rem;
     text-align: center;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -65,7 +59,6 @@
 
   .imageSvg {
     margin-top: 1rem;
-    margin-bottom: 1rem;
     width: 18rem;
     position: relative;
     left: 50%;
@@ -73,7 +66,6 @@
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
   }
-
 }
 
 @media only screen and (min-width: 700px) {

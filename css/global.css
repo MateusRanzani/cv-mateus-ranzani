@@ -7,33 +7,81 @@ h3 {
   color: #111729 !important;
 }
 
-div,h1,
+div,
+h1,
 h2,
-h3, footer, body {
+h3,
+footer,
+body {
   user-select: none;
 }
 
-body {
-  margin: 0;
-  padding: 0rem 2rem 2rem 2rem;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+@media only screen and (max-width: 699px) {
+  body {
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  header {
+    font-family: "Poppins", sans-serif;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0 !important;
+  }
+
+  p {
+    font-family: "Poppins", sans-serif;
+    color: #111729;
+  }
+
+  .footer {
+    margin: 1rem;
+    color: gray !important;
+    user-select: none;
+  }
+
+  .buttonPattern {
+    margin-bottom: 0.5rem;
+  }
 }
 
-header {
-  margin-top: -2.2rem;
-  margin-bottom: 2rem;
+@media only screen and (min-width: 700px) {
+  body {
+    margin: 0;
+    padding: 0rem 2rem 2rem 2rem;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+
+  header {
+    margin-top: -2.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .footer {
+    color: gray !important;
+    user-select: none;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .buttonPattern {
+    margin-right: 0.5rem;
+  }
 }
 
+/*  */
+/* 
 .footer {
   color: gray !important;
   user-select: none;
   display: flex;
   position: absolute;
   bottom: 0;
-}
+} */
 
 .buttonsHeader {
   border-bottom: 0.1px solid rgba(128, 128, 128, 0.1);

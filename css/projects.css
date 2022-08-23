@@ -34,39 +34,72 @@
   }
 }
 
-body {
-  padding: 3rem 3rem 3rem 3rem;
-  overflow-x: hidden;
-  overflow-y: hidden;
+@media only screen and (max-width: 699px) {
+  .totalPage {
+    display: none;
+  }
+
+  /* a {
+    color: white !important;
+    text-decoration: none !important;
+  }
+
+  .logoGitHub {
+    height: 5rem;
+    animation: wiggle 3s linear infinite;
+  }
+
+  .positionLogo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    transition: all 0.5s ease;
+    background: #712cf9 !important;
+    padding: 10px;
+  }
+  .card:hover {
+    background: #5014c9 !important;
+    padding: 20px;
+  } */
 }
 
-p {
-  font-family: "Poppins", sans-serif;
-  color: #0d6efd;
-}
+@media only screen and (min-width: 700px) {
+  body {
+    padding: 3rem 3rem 3rem 3rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
 
-a {
-  color: white !important;
-  text-decoration: none !important;
-}
+  p {
+    font-family: "Poppins", sans-serif;
+    color: #0d6efd;
+  }
 
-.logoGitHub {
-  height: 5rem;
-  animation: wiggle 3s linear infinite;
-}
+  a {
+    color: white !important;
+    text-decoration: none !important;
+  }
 
-.positionLogo {
-  display: flex;
-  position: absolute;
-  right: 5rem;
-}
+  .logoGitHub {
+    height: 5rem;
+    animation: wiggle 3s linear infinite;
+  }
 
-.card {
-  transition: all 0.5s ease;
-  background: #712cf9 !important;
-  padding: 10px;
-}
-.card:hover {
-  background: #5014c9 !important;
-  padding: 20px;
+  .positionLogo {
+    display: flex;
+    position: absolute;
+    right: 5rem;
+  }
+
+  .card {
+    transition: all 0.5s ease;
+    background: #712cf9 !important;
+    padding: 10px;
+  }
+  .card:hover {
+    background: #5014c9 !important;
+    padding: 20px;
+  }
 }
