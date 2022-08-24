@@ -2,11 +2,7 @@
 
 @media only screen and (max-width: 700px) {
   .footer {
-    margin: 0;
-    width: 100%;
-    color: gray !important;
-    user-select: none;
-    display: flex;
+  display: none;
    
   }
 
@@ -68,12 +64,24 @@
   }
 
   body {
+    height: 90vh;
     padding: 3rem 3rem 3rem 3rem;
     position: relative;
   }
 
   p {
     color: #111729;
+  }
+
+  .contentContainer {
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
   }
 
   .allContacts {
@@ -107,11 +115,5 @@
     margin-bottom: 0.5rem;
   }
 
-  .footer {
-    color: gray !important;
-    user-select: none;
-    display: flex;
-    position: absolute;
-    bottom: -2rem;
-  }
+
 }

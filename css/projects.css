@@ -94,8 +94,10 @@
 @media only screen and (min-width: 700px) {
   body {
     padding: 3rem 3rem 3rem 3rem;
+    height: 90vh;
     overflow-x: hidden;
     overflow-y: hidden;
+    position: relative;
   }
 
   p {
@@ -133,8 +135,17 @@
     background: #712cf9 !important;
     padding: 10px;
   }
+
   .card:hover {
     background: #5014c9 !important;
     padding: 20px;
+  }
+
+  .footer {
+    color: gray !important;
+    user-select: none;
+    display: flex;
+    position: absolute;
+    bottom: -2rem;
   }
 }
