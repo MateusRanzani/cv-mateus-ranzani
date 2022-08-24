@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
-@media only screen and (max-width: 699px) {
+@media only screen and (max-width: 730px) {
   .buttonsHeader {
     display: flex;
     justify-content: center;
@@ -68,19 +68,23 @@
   }
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 731px) {
   body {
+    height: 100vh;
     padding: 3rem 3rem 3rem 3rem;
     position: relative;
   }
 
   p {
+    font-family: "Poppins", sans-serif;
     color: #111729;
   }
 
   .title {
+    max-width: 50vw;
+    word-wrap: break-word;
     margin-bottom: 0rem;
-    font-size: 49px;
+    font-size: 3rem;
   }
 
   .textHi {
@@ -104,6 +108,7 @@
   }
 
   .myResume {
+    max-width: 50rem;
     width: 50vw;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -114,19 +119,29 @@
   }
 
   .imageSvg {
-    width: 33vw;
-    max-width: 25rem;
+    width: 45vw;
+    max-width: 20rem;
     display: flex;
-    right: 5vw;
+    right: 1vw;
     top: 8rem;
     position: absolute;
+  }
+
+  .pageFooter {
+    margin: auto;
+    max-width: 90rem;
   }
 
   .footer {
     color: gray !important;
     user-select: none;
-    display: flex;
-    position: absolute;
-   bottom: -2rem;
+    max-width: 90rem;
+  }
+
+  .page {
+    position: relative;
+    margin: auto;
+    min-height: calc(100vh - 50px);
+    max-width: 90rem;
   }
 }

@@ -141,11 +141,20 @@
     padding: 20px;
   }
 
+  .pageFooter {
+    margin: auto;
+    max-width: 90rem;
+  }
+
   .footer {
     color: gray !important;
     user-select: none;
-    display: flex;
-    position: absolute;
-    bottom: -2rem;
+  }
+
+  .page {
+    position: relative;
+    margin: auto;
+    min-height: calc(100vh - 50px);
+    max-width: 90rem;
   }
 }
