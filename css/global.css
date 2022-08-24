@@ -38,6 +38,8 @@ body {
     margin: 1rem;
     color: gray !important;
     user-select: none;
+    display: flex;
+    justify-content: center;
   }
 
   .buttonPattern {
@@ -60,28 +62,12 @@ body {
     margin-bottom: 2rem;
   }
 
-  .footer {
-    color: gray !important;
-    user-select: none;
-    display: flex;
-    position: absolute;
-    bottom: 0;
-  }
+ 
 
   .buttonPattern {
     margin-right: 0.5rem;
   }
 }
-
-/*  */
-/* 
-.footer {
-  color: gray !important;
-  user-select: none;
-  display: flex;
-  position: absolute;
-  bottom: 0;
-} */
 
 .buttonsHeader {
   border-bottom: 0.1px solid rgba(128, 128, 128, 0.1);

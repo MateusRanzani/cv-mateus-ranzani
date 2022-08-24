@@ -22,6 +22,7 @@
     padding: 3rem 3rem 3rem 3rem;
     overflow-x: hidden;
     overflow-y: hidden;
+    position: relative;
   }
 
   p {
@@ -47,7 +48,7 @@
   }
 
   .aboutMe-resume {
-    max-height: calc(100vh - 190px);
+    height: calc(100vh - 190px);
     width: 100%;
     overflow-x: hidden;
     overflow-y: auto;
@@ -68,5 +69,13 @@
   .aboutMe-resume::-webkit-scrollbar-thumb {
     box-shadow: inset 2px 2px 5px 0 rgba(113, 44, 249, 0.2);
     border-radius: 100px;
+  }
+
+  .footer {
+    color: gray !important;
+    user-select: none;
+    display: flex;
+    position: absolute;
+   bottom: -2rem;
   }
 }

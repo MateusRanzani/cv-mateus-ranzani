@@ -71,8 +71,7 @@
 @media only screen and (min-width: 700px) {
   body {
     padding: 3rem 3rem 3rem 3rem;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    position: relative;
   }
 
   p {
@@ -81,10 +80,15 @@
 
   .title {
     margin-bottom: 0rem;
+    font-size: 49px;
   }
 
   .textHi {
-    font-size: 60px;
+    font-size: 70px;
+  }
+
+  .welcome {
+    font-size: 20px;
   }
 
   .colorName {
@@ -110,10 +114,19 @@
   }
 
   .imageSvg {
-    width: 24rem;
+    width: 33vw;
+    max-width: 25rem;
     display: flex;
-    right: 5rem;
+    right: 5vw;
     top: 8rem;
     position: absolute;
+  }
+
+  .footer {
+    color: gray !important;
+    user-select: none;
+    display: flex;
+    position: absolute;
+   bottom: -2rem;
   }
 }
