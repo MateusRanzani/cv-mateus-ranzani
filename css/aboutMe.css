@@ -15,6 +15,10 @@
     margin-top: -2rem;
     padding: 2rem;
   }
+
+  .pageFooter {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 700px) {

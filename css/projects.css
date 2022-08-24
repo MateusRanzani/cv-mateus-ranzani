@@ -49,9 +49,17 @@
   }
 
   .logoGitHub {
-    margin-top: 1rem;
     height: 5rem;
     animation: wiggle 3s linear infinite;
+  }
+
+  .headerTag {
+    display: flex;
+    justify-content: center;
+  }
+
+  .pageFooter {
+    display: none;
   }
 
   .positionLogo {
@@ -94,7 +102,6 @@
 @media only screen and (min-width: 700px) {
   body {
     padding: 3rem 3rem 3rem 3rem;
-    height: 90vh;
     overflow-x: hidden;
     overflow-y: hidden;
     position: relative;
@@ -119,8 +126,22 @@
     text-decoration: none !important;
   }
 
+  .divFlex {
+    display: flex;
+  }
+
+  .flexPage {
+    display: flex;
+    justify-content: center;
+  }
+
+  .divTotal {
+    height: 100%;
+    width: 100%;
+  }
+
   .logoGitHub {
-    height: 5rem;
+    height: 2rem;
     animation: wiggle 3s linear infinite;
   }
 
@@ -146,9 +167,26 @@
     max-width: 90rem;
   }
 
+  .content {
+    max-width: 50rem;
+    margin: auto;
+  }
+
   .footer {
     color: gray !important;
     user-select: none;
+  }
+
+  .card {
+    margin: 0.3rem;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  ._gitHub {
+    display: flex;
   }
 
   .page {
